@@ -13,7 +13,7 @@ const Navigation = () => {
                     </ul>
                     {state ? (
                         <ul className="navbar__right">
-                            <li>
+                            <li className={"home"}>
                                 <a href="">HOME</a>
                             </li>
                             <li>

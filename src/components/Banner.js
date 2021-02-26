@@ -13,7 +13,7 @@ const Banner = () => {
         title: "I am Rafał Gębica",
         text:
             "I am aspiring to be a Junior Java Developer. Here is my portfolio, I will say something about myself, show you my skills and projects which I have recently completed or I am still working on.",
-        image: "/images/photo.jpg",
+        // image: "/images/photo.jpg",
     });
 
     return (
@@ -57,7 +57,7 @@ const Banner = () => {
                     </div>
                     <div className="col-6">
                         <div className="banner__img">
-                            <img src={state.image} alt="man" />
+                            <img src={state.image} alt="photo" />
                         </div>
                     </div>
                 </div>

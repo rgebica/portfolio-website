@@ -25,7 +25,6 @@ import {
 
 const Skills = () => {
     const [header] = React.useState({
-        mainHeader: "SKILLS",
         subHeading: "My Skills",
         text:
             "Lorem Ipsum is simply dummy text of the printing and typesetting\
