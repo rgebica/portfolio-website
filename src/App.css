@@ -52,7 +52,7 @@ body {
   margin: 0 auto;
 }
 .bgMain {
-  background: #1f2235;
+  background: #161616;
 }
 
 .h-650 {
@@ -153,7 +153,7 @@ body {
 
 /* Servives */
 .services {
-  background: #1f2235;
+  background: #161616;
   padding: 100px 0;
   color: #292929;
 }
@@ -167,7 +167,7 @@ body {
 .heading {
   margin-bottom: 20px;
   font-weight: 500;
-  color: #ff4a57;
+  color: #17d1ac;
   font-size: 16px;
 }
 .mainHeader {
@@ -180,7 +180,7 @@ body {
   color: #dfdfdf;
 }
 .commonBorder {
-  background: #ff4a57;
+  background: #17d1ac;
   height: 3px;
   width: 100px;
   margin: 30px auto;
@@ -188,17 +188,17 @@ body {
 
 .services__box {
   padding: 40px;
-  background: #23263a;
+  background: #1E1E1E;
   color: #fff;
   margin: 20px;
   transition: all 0.5s linear;
 }
 .services__box:hover {
-  background: #ff4a57;
+  background: #17d1ac;
 }
 .commonIcons {
   font-size: 40px;
-  color: #ff4a57;
+  color: #17d1ac;
   margin-bottom: 15px;
 }
 .services__box:hover .commonIcons {

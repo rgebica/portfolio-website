@@ -12,7 +12,7 @@ const Banner = () => {
         welcome: "Hello!",
         title: "I am Rafał Gębica",
         text:
-            "I am aspiring to be a Junior Java Developer. Here is my portfolio and I will say something about myself, show you my skills and projects which I have recently completed or I am still working on.",
+            "I am aspiring to be a Junior Java Developer. Here is my portfolio, I will say something about myself, show you my skills and projects which I have recently completed or I am still working on.",
         image: "/images/photo.jpg",
     });
 
