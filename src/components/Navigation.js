@@ -14,25 +14,19 @@ const Navigation = () => {
                     {state ? (
                         <ul className="navbar__right">
                             <li>
-                                <a href="">Home</a>
+                                <a href="">HOME</a>
                             </li>
                             <li>
-                                <a href="">Services</a>
+                                <a href="">ABOUT ME</a>
                             </li>
                             <li>
-                                <a href="">About</a>
+                                <a href="">SKILLS</a>
                             </li>
                             <li>
-                                <a href="">Skills</a>
+                                <a href="">PORTFOLIO</a>
                             </li>
                             <li>
-                                <a href="">Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="">Blog</a>
-                            </li>
-                            <li>
-                                <a href="">Contact</a>
+                                <a href="">CONTACT</a>
                             </li>
                         </ul>
                     ) : (
