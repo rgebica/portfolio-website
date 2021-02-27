@@ -7,9 +7,9 @@ const Navigation = () => {
             <div className="container">
                 <div className="navbar__container">
                     <ul className="navbar__left">
-                        <div className="navbar__left-logo">
-                            <img src="/images/icon.png" alt="logo" />
-                        </div>
+                        {/*<div className="navbar__left-logo">*/}
+                        {/*    <img src="/images/icon.png" alt="logo" />*/}
+                        {/*</div>*/}
                     </ul>
                     {state ? (
                         <ul className="navbar__right">

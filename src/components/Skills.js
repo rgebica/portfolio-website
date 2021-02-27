@@ -27,81 +27,71 @@ const Skills = () => {
     const [header] = React.useState({
         subHeading: "My Skills",
         text:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting\
-          industry. Lorem Ipsum standard dummy text.",
+            "",
     });
     const [state] = React.useState([
         {
             id: 1,
             icon: <FaJava className="commonIcons" />,
-            heading: "Java version 8 +",
+            heading: "Java version 8+",
             text:
-                "Lorem Ipsum is simply dummy text of the printing typesetting\
-              industry. simply dummy",
+                "Basic knowledge of Java language in version 8+ with functional programming (lambdas, streams). ",
         },
         {
             id: 2,
             icon: <SiSpring className="commonIcons" />,
             heading: "Spring",
             text:
-                "Lorem Ipsum is simply dummy text of the printing typesetting\
-                industry. simply dummy",
+                "Basics from Spring, Spring Data, Spring Security, Spring MVC, Beans",
         },
         {
             id: 3,
             icon: <FaDatabase className="commonIcons" />,
             heading: "Hibernate / JPA",
             text:
-                "Lorem Ipsum is simply dummy text of the printing typesetting\
-                industry. simply dummy",
+                "In Hibernate I know how to manage database, create entities, relations. I can write query using JPA and JPQL.",
         },
         {
             id: 4,
             icon: <SiPostgresql className="commonIcons" />,
             heading: "PostgreSQL",
             text:
-                "Lorem Ipsum is simply dummy text of the printing typesetting\
-                industry. simply dummy",
+                "I know SQL language on a good level. I can create basic and advanced queries, tables, triggers, procedures, insert data and manage database. ",
         },
         {
             id: 5,
             icon: <FaGitAlt className="commonIcons" />,
             heading: "Git",
             text:
-                "Lorem Ipsum is simply dummy text of the printing typesetting\
-                industry. simply dummy",
+                "I can create repository and manage my repository. I know how to commmit my changes and pushing to choosen branch. I have basic knowledge of GIt which allow me to join team project.",
         },
         {
             id: 6,
             icon: <SiApachemaven className="commonIcons" />,
             heading: "Apache Maven",
             text:
-                "Lorem Ipsum is simply dummy text of the printing typesetting\
-                industry. simply dummy",
+                "I know how to add new dependencies and manage currently added. Besides I know Maven's commands to control project ",
         },
         {
             id: 7,
             icon: <BiTestTube className="commonIcons" />,
             heading: "Unit testing",
             text:
-                "Lorem Ipsum is simply dummy text of the printing typesetting\
-                industry. simply dummy",
+                "I can write basics unit and integrated tests and I know how TDD methodology works",
         },
         {
             id: 8,
             icon: <SiJavascript className="commonIcons" />,
             heading: "Java Script",
             text:
-                "Lorem Ipsum is simply dummy text of the printing typesetting\
-                industry. simply dummy",
+                "I have recently started learning Java Script and I know only basics from this language to write simple code lines.",
         },
         {
             id: 9,
             icon: <SiReact className="commonIcons" />,
             heading: "React",
             text:
-                "Lorem Ipsum is simply dummy text of the printing typesetting\
-                industry. simply dummy",
+                "I know Reacts's basics like States, Redux and libraries for this framework. ",
         },
     ]);
     return (

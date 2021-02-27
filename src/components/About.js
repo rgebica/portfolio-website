@@ -2,9 +2,7 @@ import React from "react";
 
 const About = () => {
     const [header] = React.useState({
-        subHeader: "About Me",
-        text:
-            "Some information about me.",
+        subHeader: "About Me"
     });
     const [state] = React.useState([
         { id: 1, title: "Name:", text: "Rafał Gębica" },

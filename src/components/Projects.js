@@ -4,7 +4,7 @@ const Projects = () => {
     const [header] = React.useState({
         subHeading: "Sample Projects",
         text:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.",
+            "",
     });
     const [state] = React.useState([
         {
@@ -13,7 +13,8 @@ const Projects = () => {
             msg1: "Description:",
             msg2: "Application corresponding to an electonic gradebook. App allows of creating an account, which on the basis of an e-mail will determine our function and will send a confirmation link. What is more,this application displays grades along with an average grade for each subject, midterm grade, attendance and absence; also with divisions into subjects, as well as attendance-absence balance. System also calculate weight average, presence count, presence percentage. Teacher can add semester and final grades",
             msg3: "Stack:",
-            msg4: "Java, Functional Programming (lambdas, streams), Spring, Spring Security, Spring Data, Hibernate, JPA, JUnit5, Spock&Groovy, PostgreSQL, Java Script, React, Material Ui, Bootstrap"
+            msg4: "Java, Functional Programming (lambdas, streams), Spring, Spring Security, Spring Data, Hibernate, JPA, JUnit5, Spock&Groovy, PostgreSQL, Java Script, React, Material Ui, Bootstrap",
+            link: "https://github.com/rgebica/Online-Gradebook/"
         },
         {
             id: 2,
@@ -23,7 +24,8 @@ const Projects = () => {
                 "\n" +
                 "allows to list appointments of certain doctor for given day ,customer to cancel his appointment , doctor to check his visits by dat , doctor to check all his visits (open and taken), create new terms",
             msg3: "Stack:",
-            msg4: "Java, Functional Programming (lambdas, streams), Spring, Spring Data, Hibernate, JPA, JUnit5, Spock&Groovy, PostgreSQL"
+            msg4: "Java, Functional Programming (lambdas, streams), Spring, Spring Data, Hibernate, JPA, JUnit5, Spock&Groovy, PostgreSQL",
+            link: "https://github.com/rgebica/Vet-clinic"
 
         },
         {
@@ -56,8 +58,8 @@ const Projects = () => {
                                     <li>{projects.msg4}</li>
                                 </ul>
                                 <div className="project__btn">
-                                    <a style={{ color: 'white' }} href="" className="btn btn-outline">
-                                        Read more
+                                    <a target="_blank" style={{ color: 'white' }} href={projects.link} className="btn btn-outline">
+                                        See project at GitHub
                                     </a>
                                 </div>
                             </div>

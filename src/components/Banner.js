@@ -1,4 +1,9 @@
 import React from "react";
+
+import {
+    FiDownload
+} from "react-icons/fi";
+
 import {
     FaLinkedin,
     FaFacebookF,
@@ -7,6 +12,7 @@ import {
     FaGithub,
     FaBitbucket
 } from "react-icons/fa";
+
 import {
     BrowserRouter as Router,
     Switch,
@@ -48,12 +54,12 @@ const Banner = () => {
                                 <h1>{state.title}</h1>
                                 <p>{state.text}</p>
                                 <div className="header__buttons">
-                                    <a href="" className="btn btn-outline">
-                                        My Portfolio
+                                    <a href="" className="btn btn-outline" class={"disabled"}>
+                                        Download my CV
                                     </a>
                                     &nbsp;&nbsp;&nbsp;
-                                    <a href="" className="btn btn-smart">
-                                        <FaPlay className="play" />
+                                    <a target="_blank" href="https://drive.google.com/file/d/1JPctbaRANnntUVCxy70CSNVP8Fn5wyBi/view?usp=sharing" className="btn btn-smart">
+                                        <FiDownload className="play" />
                                     </a>
                                 </div>
                             </div>
