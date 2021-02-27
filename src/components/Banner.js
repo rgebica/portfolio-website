@@ -7,13 +7,20 @@ import {
     FaGithub,
     FaBitbucket
 } from "react-icons/fa";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
+
 const Banner = () => {
     const [state] = React.useState({
         welcome: "Hello!",
         title: "I am Rafał Gębica",
         text:
             "I am aspiring to be a Junior Java Developer. Here is my portfolio, I will say something about myself, show you my skills and projects which I have recently completed or I am still working on.",
-        // image: "/images/photo.jpg",
+         image: "/images/2794209.png",
     });
 
     return (
@@ -24,20 +31,17 @@ const Banner = () => {
                         <div className="header__content">
                             <div className="header__section">
                                 <ul className="header__ul">
-                                    <li className="header__ul_facebook">
-                                        <FaFacebookF className="headerIcon" />
+                                    <li>
+                                        <a target="_blank" href={"https://www.facebook.com/profile.php?id=100002916904666"}><FaFacebookF className="headerIcon"/></a>
                                     </li>
                                     <li>
-                                        <FaTwitter className="headerIcon" />
+                                        <a target="_blank" href={"https://www.linkedin.com/in/rafa%C5%82-g%C4%99bica-200198187/"}><FaLinkedin className="headerIcon"/></a>
                                     </li>
                                     <li>
-                                        <FaLinkedin className="headerIcon" />
+                                        <a target="_blank" href={"https://github.com/rgebica"}><FaGithub className="headerIcon"/></a>
                                     </li>
                                     <li>
-                                        <FaGithub className="headerIcon" />
-                                    </li>
-                                    <li>
-                                        <FaBitbucket className="headerIcon" />
+                                        <a target="_blank" href={"https://bitbucket.org/rafal_gebica/"}><FaBitbucket className="headerIcon"/></a>
                                     </li>
                                 </ul>
                                 <h2>{state.welcome}</h2>

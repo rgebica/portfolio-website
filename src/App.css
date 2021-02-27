@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a, a:visited{
+  color: black;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -154,8 +158,10 @@ body {
   padding-top: 10px;
 }
 .banner__img {
+  position: absolute;
   padding: 0 30px;
-  margin-top: 150px;
+  margin-top: 15%;
+  margin-left: 5%;
 }
 
 /* Servives */
@@ -229,8 +235,8 @@ body {
   padding: 30px;
 }
 .about__img img {
-  width: 300px;
-  height: 400px;
+  width: 380px;
+  height: 480px;
 }
 .about__info {
   color: #fff;

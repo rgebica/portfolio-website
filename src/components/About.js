@@ -10,9 +10,9 @@ const About = () => {
         { id: 1, title: "Name:", text: "Rafał Gębica" },
         { id: 2, title: "Email:", text: "rgebica@gmail.com" },
         { id: 3, title: "Date of birth:", text: "13-11-1997" },
-        { id: 4, title: "Linkedin", text: "/rgebica" },
+        { id: 4, title: "Linkedin", text: "/in/rafał-gębica-200198187/" },
         { id: 5, title: "GitHub", text: "/rgebica" },
-        { id: 6, title: "BitBucket", text: "/rgebica" },
+        { id: 6, title: "BitBucket", text: "/rafal_gebica" },
 
     ]);
     return (
@@ -26,7 +26,7 @@ const About = () => {
                 <div className="row  h-650 alignCenter">
                     <div className="col-6">
                         <div className="about__img">
-                            <img src="/images/photo.jpg" alt="man" />
+                            <img src="/images/1234(1).jpg" alt="man" />
                         </div>
                     </div>
                     <div className="col-6">
