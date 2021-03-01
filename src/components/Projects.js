@@ -38,7 +38,7 @@ const Projects = () => {
         },
     ]);
     return (
-        <div className="projects">
+        <div className="projects" id="projects">
             <div className="container">
                 <div className="common">
                     <h3 className="heading">{header.mainHeader}</h3>
@@ -59,7 +59,7 @@ const Projects = () => {
                                 </ul>
                                 <div className="project__btn">
                                     <a target="_blank" style={{ color: 'white' }} href={projects.link} className="btn btn-outline">
-                                        See project at GitHub
+                                        See more
                                     </a>
                                 </div>
                             </div>

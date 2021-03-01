@@ -95,7 +95,7 @@ const Skills = () => {
         },
     ]);
     return (
-        <div className="services">
+        <div className="services" id="skills">
             <div className="container">
                 <div className="services__header">
                     <div className="common">

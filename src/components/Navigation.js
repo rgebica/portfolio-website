@@ -1,5 +1,8 @@
 import React from "react";
 import { FaAlignJustify } from "react-icons/fa";
+import {Link} from 'react-scroll'
+import About from "./About";
+
 const Navigation = () => {
     const [state, setState] = React.useState(true);
     return (
@@ -14,19 +17,19 @@ const Navigation = () => {
                     {state ? (
                         <ul className="navbar__right">
                             <li className={"home"}>
-                                <a href="">HOME</a>
+                                <Link to="home" spy={true} smooth={true}>HOME</Link>
                             </li>
                             <li>
-                                <a href="">ABOUT ME</a>
+                                <Link to="about" spy={true} smooth={true}>ABOUT</Link>
                             </li>
                             <li>
-                                <a href="">SKILLS</a>
+                                <Link to="skills" spy={true} smooth={true}>SKILLS</Link>
                             </li>
                             <li>
-                                <a href="">PORTFOLIO</a>
+                                <Link to="projects" spy={true} smooth={true}>PROJECTS</Link>
                             </li>
                             <li>
-                                <a href="">CONTACT</a>
+                                <Link to="skills" spy={true} smooth={true}>CONTACT</Link>
                             </li>
                         </ul>
                     ) : (

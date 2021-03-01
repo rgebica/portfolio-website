@@ -14,7 +14,7 @@ const About = () => {
 
     ]);
     return (
-        <div className="about">
+        <div className="about" id="about">
             <div className="container">
                 <div className="common">
                     <h1 className="mainHeader">{header.subHeader}</h1>
@@ -24,7 +24,7 @@ const About = () => {
                 <div className="row  h-650 alignCenter">
                     <div className="col-6">
                         <div className="about__img">
-                            <img src="/images/1234(1).jpg" alt="man" />
+                            <img src="/images/photo.jpg" alt="man" />
                         </div>
                     </div>
                     <div className="col-6">
